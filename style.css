@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    overflow: hidden;
+    height: 100vh;
+}
+.start{
+    width: 10%;
+}
+.startmenu{
+    position: absolute;
+    bottom: 50px;
+    bottom: -650px;
+    width: 100%;
+    text-align: center;
+    transition: all .4s ease-in;
+}
+.starmenu img{
+    border-radius: 5px;
+}
+.taskbar{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: azure;
+    z-index: 110;
+}
+.right{
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 5px 0;
+    height: 89%;
+}
